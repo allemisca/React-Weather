@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Weather from "./Weather";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React JS
+          <br />
+          <Weather />
         </a>
       </header>
     </div>
